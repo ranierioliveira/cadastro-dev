@@ -43,7 +43,7 @@ div.fundo > input{
     border-radius: 8px;
     font-size: 1em;
 
-    transform: translateY(-11px);
+    transform: translateY(-10px);
 }
 div.fundo > input:focus-within{
     background-color: white;
