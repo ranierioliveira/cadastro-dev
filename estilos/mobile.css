@@ -29,12 +29,12 @@ form > div.campo, form > div.fundo{
     margin: 10px 0px;
 }
 form > div.fundo{
-    background-color: #df9bdf;
+    background-color: #7949f1;
     display: block;
     width: 100%;
     border-radius: 8px;
     height: 45px;
-    border: 2px solid #df9bdf;
+    border: 2px solid #7949f1;
 
 }
 div.fundo > input{
@@ -72,6 +72,7 @@ form > div.campo > input{
 div > h2 > label.sub{
     font-size: 0.8em;
     display: block;
+    color: #7949f1;
     
 }
 
@@ -90,10 +91,10 @@ form > p > input[type=submit]{
     font-size: 1.2em;
     border-radius: 10px;
     color: white;
-    background-color: #5e2ae0;
+    background-color:#7949f1;
 }
 form > p > input[type=submit]:hover{
-    border-color: #5e2ae0;
-    color: #5e2ae0;
+    border-color: #7949f1;
+    color: #7949f1;
     background-color: white;
 }
