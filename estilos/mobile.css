@@ -23,7 +23,77 @@ main{
     transform: translate(-50%, -50%);
     width: 300px;
     padding: 20px;
+    border-radius: 10px;
 }
-form > div.campo{
+form > div.campo, form > div.fundo{
     margin: 10px 0px;
+}
+form > div.fundo{
+    background-color: #df9bdf;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    height: 45px;
+    border: 2px solid #df9bdf;
+
+}
+div.fundo > input{
+    width: calc(100% - 44.4px);
+    height: 40px;
+    border-radius: 8px;
+    font-size: 1em;
+
+    transform: translateY(-11px);
+}
+div.fundo > input:focus-within{
+    background-color: white;
+}
+
+div.fundo > span{
+    color: white;
+    padding: 5px;
+    width: 40px;
+    height: 45px;
+    font-size: 2em;
+    
+    
+}
+
+form > div.fundo > label{
+    display: none;
+}
+
+form > div.campo > input{
+    border: 1px solid black;
+    height: 25px;
+    
+}
+
+div > h2 > label.sub{
+    font-size: 0.8em;
+    display: block;
+    
+}
+
+div.campo > textarea{
+    border-color: black;
+    display: block;
+    width: 260px;
+    margin: auto;
+    font-size: 1em;
+}
+form > p > input[type=submit]{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color: white;
+    background-color: #5e2ae0;
+}
+form > p > input[type=submit]:hover{
+    border-color: #5e2ae0;
+    color: #5e2ae0;
+    background-color: white;
 }
