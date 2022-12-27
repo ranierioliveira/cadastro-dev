@@ -6,7 +6,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body, html{
+ body{
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(to left, 
@@ -15,7 +15,7 @@ body, html{
 main{
     position: relative;
     height: 100vh;
-    width:100vw;
+    width:100vw; 
 }
 div.principal{
     background-color: white;
