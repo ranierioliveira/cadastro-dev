@@ -3,10 +3,10 @@
 
 @media screen and (min-width:768px) and (max-width:992px){
     
-    main{
-        height: 100vh;
-    }
     .imagem{
         display:block;
+    }
+    div.principal{
+        top: 50%;
     }
 }
