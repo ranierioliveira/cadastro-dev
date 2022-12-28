@@ -111,6 +111,8 @@ div.campo > textarea{
     height: 130px;
     margin: auto;
     font-size: 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    
 }
 form > p > input[type=submit]{
     display: block;
@@ -121,9 +123,13 @@ form > p > input[type=submit]{
     border-radius: 10px;
     color: white;
     background-color:#7949f1;
+    border: none;
+    
 }
 form > p > input[type=submit]:hover{
     border-color: #7949f1;
     color: #7949f1;
     background-color: white;
+    border: solid;
+
 }
