@@ -3,10 +3,65 @@
 
 @media screen and (min-width:768px) and (max-width:992px){
     
-    .imagem{
-        display:block;
-    }
     div.principal{
         top: 50%;
+        width: 70vh;
+        padding: 0px;
+    }
+    .imagem{
+        display:block;
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .formulario{
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+    #titulo{
+        font-size: 1.7em;
+    }
+    .imagem{
+        background: bisque url('../imagens/undraw_web_development_0l6v.svg') no-repeat center center;
+        background-size: contain;
+    }
+    
+    div.campo > textarea{
+        height: 150px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:992px){
+    div.principal{
+        top: 50%;
+        width: 900px;
+        padding: 0px;
+    }
+    .imagem{
+        display:block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 30px;
+    }
+    .formulario{
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+    #titulo{
+        font-size: 1.7em;
+    }
+    .imagem{
+        background: bisque url('../imagens/undraw_web_development_0l6v.svg') no-repeat center center;
+        background-size: contain;
+    }
+    div.campo > h2 > label.sub{
+        margin: 10px;
+    }
+    div.campo > textarea{
+        height: 230px;
+        width: 100%;
     }
 }

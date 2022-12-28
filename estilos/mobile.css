@@ -6,7 +6,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body, html{
+html, body{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to left, 
@@ -38,14 +38,22 @@ div.principal{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    padding: 20px;
     border-radius: 10px;
     height: 800px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    overflow: hidden;
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+}
+.formulario{
+    padding: 20px;
 }
 .imagem{
-    background: black url(../imagens/undraw_programmer_re_owql.svg) no-repeat top center;
     height: 500px;
     display: none;
+    
 }
 
 form > div.campo, form > div.fundo{
