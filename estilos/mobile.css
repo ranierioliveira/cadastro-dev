@@ -38,11 +38,8 @@ div.principal{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    border-radius: 10px;
     height: 800px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
-    border-radius: 10px;
-    overflow: hidden;
 
     transition: width .5s, height .5s;
     transition-timing-function: ease;
