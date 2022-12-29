@@ -4,20 +4,21 @@
 @media screen and (min-width:768px) and (max-width:992px){
     
     div.principal{
-        top: 50%;
+        display: flex;
         width: 70vh;
         padding: 0px;
+        height: 800px;
     }
     .imagem{
         display:block;
         width: 50%;
         height: 100%;
-        float: left;
+        
     }
     .formulario{
         width: 50%;
         height: 100%;
-        float: right;
+    
     }
     #titulo{
         font-size: 1.7em;
@@ -34,9 +35,10 @@
 }
 @media screen and (min-width:992px){
     div.principal{
-        top: 50%;
+        height: 800px;
         width: 900px;
         padding: 0px;
+
     }
     .imagem{
         display:block;
